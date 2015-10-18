@@ -2,8 +2,8 @@
 error_reporting(E_ALL^E_NOTICE);
 class ApipostAction{
 
-    private $_appkeys = '31ef8194cf6f96fa2ccc6978';
-    private $_masterSecret = '7a43ba7f916b2e2eddba62ad';
+    private $_appkeys = '31ef8194cf6f***********';
+    private $_masterSecret = '7a43b*****************';
 
     function request_post($url="",$param="",$header="") {
         if (empty($url) || empty($param)) {
